@@ -51,8 +51,8 @@ const generateLogs = async () => {
         stack: null,
         requestBody: faker.random.words(), // Example: Simulated request body
         responseTime: faker.datatype.number({ min: 10, max: 100 }), // Example: Simulated response time in milliseconds
-        userId: faker.random.uuid(), // Example: Simulated user ID
-        sessionId: faker.random.uuid(), // Example: Simulated session ID
+        userId: faker.datatype.uuid(), // Example: Simulated user ID
+        sessionId: faker.datatype.uuid(), // Example: Simulated session ID
         additionalData: {
           // Example: Additional custom data
           key1: faker.random.word(),
