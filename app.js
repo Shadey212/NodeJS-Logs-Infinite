@@ -88,7 +88,7 @@ const generateLogs = async () => {
       logger.trace({ message: faker.lorem.sentence() });
 
       // Add delay here
-      await delay(50); // 50ms delay between logs
+      await delay(150); // 150ms delay between logs
     } catch (error) {
       console.error('Error generating logs:', error);
       generating = false;
